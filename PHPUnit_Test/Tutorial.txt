@@ -1,0 +1,14 @@
+0 > Instalar o PHP:
+	https://www.php.net/downloads.php
+	Tutorial de instalação: https://blog.schoolofnet.com/como-instalar-o-php-no-windows-do-jeito-certo-e-usar-o-servidor-embutido/
+	
+1 > Instalar o Composer como variável global:
+	https://getcomposer.org/
+	
+
+2 > Instalar PHPUnit pelo Composer (Gerenciador de dependências PHP):
+	Para isso execute o seguinte comando no diretório raiz do seu projeto:
+		composer require --dev phpunit/phpunit
+			Instalando o phpunit pelo composer --dev (apenas para desenvolvimento) pacote a ser instalado phpunit/phpunit
+			composer.json fica a versão da dependência instalada
+
